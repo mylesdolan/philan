@@ -1,0 +1,16 @@
+.helpList
+{
+    padding-left: 10vw!important;
+color: #4B85E6!important ;
+}
+
+.theActiveOne
+{
+    border-color: #ff8f1c!important;
+    border-width: 2px!important;
+
+
+}
+
+.notActiveOne
+{}

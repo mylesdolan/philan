@@ -1,0 +1,88 @@
+div #header {
+  background-color: #052863; }
+
+.hidden {
+  display: none; }
+
+header {
+  padding-top:10px;
+  padding-bottom:46px;
+  z-index: 4000!important;
+  transition: opacity 1s ease-out;
+  opacity: 1;
+  overflow: hidden;
+  background-color: #052863;
+  color: white;
+  height:100px!important;
+  width: 100%;
+  display: flex !important;
+  vertical-align: top!important;
+  align-items: center;
+  justify-content: space-between; }
+header > div:first-child {
+  display: block;
+  width: 50px;
+  height: 55px;
+  margin-bottom: 8px; }
+header > div:first-child:hover {
+  cursor: pointer; }
+header > :last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+header > :last-child > div.pri-nav-outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 80px; }
+header > :last-child > div.pri-nav-outer-container:last-child {
+  width: 105px; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container {
+  width: 78px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:first-child,
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:last-child {
+  width: 100%;
+  height: 4px;
+  background-color: transparent; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:last-child.pri-nav-active {
+  background-color: #ff8f1c; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:nth-child(2) {
+  height: 64px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:nth-child(2) > svg {
+  margin-top: 6px; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:nth-child(2):hover:not(.pri-nav-active) {
+  cursor: pointer; }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:nth-child(2):hover, header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:nth-child(2).pri-nav-active {
+  border-radius: 6px;
+  background-color: rgba(216, 216, 216, 0.28); }
+header > :last-child > div.pri-nav-outer-container div.pri-nav-inner-container > div:nth-child(2) > div {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.51px;
+  text-align: center;
+  text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 3px; }
+header > :last-child .sep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 0px; }
+header > :last-child .sep > div {
+  height: 48px;
+  width: 1px;
+  background-color: #979797; }
+

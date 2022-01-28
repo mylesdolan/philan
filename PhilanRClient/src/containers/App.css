@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+}
+.paddingCssForAllMedia
+{
+  padding-left: 1%!important;
+  /*without below the header was getting sligtly overlapped by central grid container thing*/
+  margin-top:1%;
+}
+
+
+#philanfor
+{  overflow: scroll!important;}
+
+
+.BLogo
+{/*top: 60px!important;;
+  left: 150px!important;
+padding-right: 200px!important;
+  padding-left: 200px!important;
+  margin-right: 400px!important;
+  display: inline-block!important;
+  height: 400px;
+  padding-top:40px!important;
+display: block!important;
+  margin-top: 15px!important;
+*/
+
+  padding-top: 20px!important;
+  text-align: center;
+font-size: 12px;
+
+  padding-left: 3px!important;
+  margin:0!important;
+}
+
+.squash
+{}
+
+.bars
+{
+padding-top: 60px;
+  /*top: 20px!important;;
+  right: 210px!important;*/
+
+}
+.caption {
+
+  color:white;
+  padding-left: 15px;
+margin-top: 0!important;
+  font-size: 10px!important;
+}
+
+.smallbars
+{
+  margin-top: 15px!important;
+display: inline-block;
+  height: 25px!important;
+  width: 25px!important;
+  padding-bottom: 3px!important;
+  padding-top: 10px!important;
+  padding-left:4px!important;
+
+}
+
+
+.personalText
+ {color:orange;
+  float:left!important;
+  margin-right:30px;
+  padding-right:30px;
+  padding-top:10px;
+  display: inline-block;
+justify-content: center;
+
+ /* padding-right: 60%;float:left;
+   width: 50px!important;
+   word-wrap:break-spaces!important;
+
+  color: white!important;
+  z-index: 30000!important;
+font-size: 20px;
+ display:inline-block!important;*/
+ }
+
+.iconBig
+{font-size: 10px!important;}
+
+/*Applies directly to icon*/
+.bartIcon
+{font-size: 25px!important;
+  height: 25px!important;
+  width: 25px!important;
+  padding-top: 40px!important;
+  padding-bottom: 2px!important;
+
+  display:inline!important;
+  margin-top: 30px!important;
+}
+
+
+.iconBig
+{
+
+
+}
+
+.BL{
+  height: 70px!important;
+  width: 70px!important;
+  padding-bottom: 0!important;
+
+  padding-left: 20px;
+  margin-bottom: 0!important;
+  display:inline!important;
+}
+
+
+
+
+
+
+.personalText2
+{
+  /* display: inline-block;
+  width: 50px!important;*/
+  word-wrap:break-spaces!important;
+  padding-right: 40%;
+  padding-bottom:10%;
+  padding-top:9%;
+  font-size:14px;
+  /*float:left!important;*/
+}
+
+
+
+
+/*Applies to div conaining icon*/
+.barsIcon {
+  float:left!important;
+
+  padding-right:80%!important;
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
+  /*top: 60px!important;;
+   left: 60px!important;*/
+  display: inline-block;
+
+  /*  padding-right :calc(85%)!important;
+  /*  padding-right:calc(100% - 150px)!important;
+    position: relative;
+      /*
+      float:right;
+      margin: 50px;
+
+
+
+      display:grid;
+      grid-template-columns:auto 25%;*/
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+          'main1 main2 main3 main4';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+ /* background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;*/
+}
+.item1 { grid-area: main1; }
+.item2 { grid-area: main2; }
+.item3 { grid-area: main3; }
+.item4 { grid-area: main4; }
+
+
+
+
+
+.sideBanner
+{
+  writing-mode: vertical-rl;  text-orientation: upright;
+  padding-right:  100px;
+  padding-top: 200px;
+font-size: 50px;
+  color: #e6e6e6;
+  font-weight: lighter;
+  float:right
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+nav .menu
+{
+  /*  height: 100%;
+ z-index: -1!important;*/
+  position: relative!important;
+
+}
+
+#sidebardiv
+{
+/*  z-index: -1!important;
+
+
+  height: 1000px!important;
+  position: absolute!important;*/
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "data":[
+    {
+      "id":"bitcoin",
+      "rank":"1",
+      "symbol":"BTC",
+      "name":"Bitcoin",
+      "supply":"18892031.0000000000000000",
+"maxSupply":null,
+"marketCapUsd":"75322827327.6946880862327527",
+"volumeUsd24Hr":"53973651327.9340007710600861",
+"priceUsd":"100.5028021115359289",
+"changePercent24Hr":"-0.0355395264424710",
+"vwap24Hr":"1.0025478857299736",
+"explorer":"https://www.omniexplorer.info/asset/31"
+},
+{
+"id":"solana",
+"rank":"5",
+"symbol":"SOL",
+"name":"Solana",
+"supply":"305775008.4255108000000000",
+"maxSupply":null,
+"marketCapUsd":"56653318861.4204387087688966",
+"volumeUsd24Hr":"974209949.6194762537568409",
+"priceUsd":"185.2777934767734078",
+"changePercent24Hr":"-10.0953573319583175",
+"vwap24Hr":"200.4401145508078480",
+"explorer":"https://explorer.solana.com/"
+},
+    {
+      "id":"bitpolly",
+      "rank":"1",
+      "symbol":"BTC",
+      "name":"Bitpolly",
+      "supply":"18892031.0000000000000000",
+      "maxSupply":null,
+      "marketCapUsd":"75322827327.6946880862327527",
+      "volumeUsd24Hr":"53973651327.9340007710600861",
+      "priceUsd":"20.0028021115359289",
+      "changePercent24Hr":"-0.0355395264424710",
+      "vwap24Hr":"1.0025478857299736",
+      "explorer":"https://www.omniexplorer.info/asset/31"
+    },
+    {
+      "id":"mdcoin",
+      "rank":"1",
+      "symbol":"BTC",
+      "name":"MDcoin",
+      "supply":"18892031.0000000000000000",
+      "maxSupply":null,
+      "marketCapUsd":"75322827327.6946880862327527",
+      "volumeUsd24Hr":"53973651327.9340007710600861",
+      "priceUsd":"76.0028021115359289",
+      "changePercent24Hr":"-0.0355395264424710",
+      "vwap24Hr":"1.0025478857299736",
+      "explorer":"https://www.omniexplorer.info/asset/31"
+    }
+  ],
+"timestamp":1638719917903
+}

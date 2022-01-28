@@ -1,0 +1,61 @@
+.ui.form.account-form .input-right .mono {
+  display: block;
+  margin-top: 0.75em;
+}
+
+.ui.form.account-form .field.checkbox {
+  padding-top: 0.75em;
+}
+
+.ui.form.account-form .fields.no-margin {
+  margin-bottom: 0 !important;
+}
+
+.userSeg{
+ /* width:300px!important;
+  min-width: 3000px!important;*/
+}
+
+.SemHead{
+  background-color:#052863;
+  color: white;
+  /* border-radius: 18.49px;*/
+  width: 100%;
+  height: 40px;
+  border-radius: 8px!important;
+  vertical-align: bottom;
+  padding-top: 7px!important;
+  padding-left: 7px!important;
+}
+.SemHead>div{
+  color: white;
+  font-size: 16px!important;
+}
+
+.container-full-page
+{
+  /*padding-top: 4.75em!important;*/
+}
+
+.container{
+  justify-content: left!important;
+  justify-items: left!important;
+  justify-self: left!important;
+
+}
+
+
+@media (max-width: 767px) {
+  .userfCon {
+    padding-top: 1em !important;
+
+  }
+}
+@media (min-width: 767px) {
+  .userfCon {
+    padding-top: 3em !important;
+    padding-left: 5em!important; ;
+    padding-right: 15em!important;
+  }
+}
+
