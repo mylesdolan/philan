@@ -1,7 +1,7 @@
 # Philanthropy Proto
 ![screenshot](Philan.png) <br/><br/>
 **WORK IN PROGRESS**<br/>
-This is a work in progress that in line with the other fortunes in the project did not get to full fruition.
+This is a work in progress by me. In line with the other fortunes in the main Benefacts project it did not get to full fruition.
 Partial remit of the prototype was to test technologies listed and these are working.
 It does
 <li>use Azure & Azure devops for deployment.
