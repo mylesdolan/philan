@@ -1,9 +1,9 @@
 # Philanthropy Proto
 ![screenshot](Philan.png) <br/><br/>
 **WORK IN PROGRESS**<br/>
-This is a work in progress by me. In line with the other fortunes in the main Benefacts project it did not get to full fruition.
-Partial remit of the prototype was to test technologies listed and these are working.
-It does
+This project I have coded to test some technologies intended to be used in a website dealing with Philanthropy. In line with the other fortunes in the main Benefacts project it did not get to full fruition.
+Partial remit of the prototype was to test features listed below and these are working. There is an up an running test site. 
+The features are to
 <li>use Azure & Azure devops for deployment.
 <li>use Auth0 for main login and for API login.
 <li>use Redux.
